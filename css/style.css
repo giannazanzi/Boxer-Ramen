@@ -6,6 +6,9 @@ body {
 	font-size: 16px;
 	 }
 
+main{
+	background-image: url(images/tonkotsu.jpeg);
+}
 h1, h2, h3, h4 {
 	font-family: Helvetica, sans-serif;
 }
@@ -36,10 +39,10 @@ header {margin-bottom: 20px;}
 img { width: 100%; }
 
 a { 
-	color: red;
+	color: rgb(255,0,127);
 	text-decoration: none;
 	 }
-a:hover { color: black; }
+a:hover { color: rgb(243,210,199); }
 
 .grid {
 	display: grid;
@@ -53,6 +56,25 @@ a:hover { color: black; }
 	background-color: #ccc;
 	padding: 20px;
 }
+
+.navul {
+    display: flex;
+    justify-content: flex-center;
+	}
+
+.navbar {
+	font-family: bee, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	display: flex;
+	vertical-align: baseline;
+	font-size: 60px;
+	padding: 20px;
+	
+}
+
+
 
 @media only screen and (min-width: 768px) {
 	body {
