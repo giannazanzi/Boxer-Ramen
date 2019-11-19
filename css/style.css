@@ -57,13 +57,10 @@ a:hover { color: rgb(243,210,199); }
 	padding: 20px;
 }
 
-.navul {
-    display: flex;
-    justify-content: flex-center;
-	}
-
-.navbar {
-	font-family: bee, sans-serif;
+nav li {
+	display: inline-block;
+ 	margin-right: 25px;
+ 	font-family: bee, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -71,8 +68,11 @@ a:hover { color: rgb(243,210,199); }
 	vertical-align: baseline;
 	font-size: 60px;
 	padding: 20px;
-	
 }
+nav ul {
+    display: flex;
+    justify-content: flex-center;
+	}
 
 
 
