@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Boxer Ramen</title>
 	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/BoxerRamen_favicon.png"> 
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -13,27 +12,33 @@
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-	<header>
-		<!-- header, h1, logo etc content -->
-		<nav class="navbar">
-		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
-		<ul class="navul">
-			<li><a href="subpage-two.html">MENU</a></li>
-			<li><a href="subpage-three.html">LOCATIONS</a></li>
-			<li><a href="subpage-one.html">ABOUT</a></li>
-			<li><a href="subpage-four.html">CONTACT</a></li>
-		</ul>
-	</nav>
-		<img src="images/BR19_web+logo+overlay.png">
-	</header>
-	<main>
-		<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus soluta vero fugiat saepe, tempore laboriosam nemo pariatur maxime sunt rerum."</blockquote>
-	<!-- Main content here -->
-		<img src="images/pink+tanuki.png">
-		<div class="grid">
-			<div>Column 1</div>
-			<div>Column 2</div>
-		</div>
+	<section class="section-one">
+		<header>
+			<!-- header, h1, logo etc content -->
+			<nav class="navbar">
+				<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
+				<ul class="nav ul">
+					<li><a href="subpage-two.html">MENU</a></li>
+					<li><a href="subpage-three.html">LOCATIONS</a></li>
+					<li><a href="subpage-one.html">ABOUT</a></li>
+					<li><a href="subpage-four.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<p>
+				<img src="images/BR19_web+logo+overlay.png" class="logo">
+			</p>
+			<blockquote>"Welcome to Boxer Ramen! Looking for some award-winning ramen or a cold glass of sake? Come on down to one of our five Portland locations!"</blockquote>
+		</section>
+		<section class="section-two">
+			<!-- Main content here -->
+			<img src="images/pink+tanuki.png">
+			<div class="grid">
+				<div>Column 1</div>
+				<div>Column 2</div>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<!-- footer content here -->
@@ -41,10 +46,10 @@
 	</footer>
 	<!-- link for jquery -->
 	<script
-  	src="https://code.jquery.com/jquery-3.4.1.min.js"
-  	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  	crossorigin="anonymous"></script>
-  	<!-- link for your script file -->
-  	<script src="scripts/script.js"></script>
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+	<!-- link for your script file -->
+	<script src="scripts/script.js"></script>
 </body>
 </html>

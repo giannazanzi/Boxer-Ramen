@@ -4,10 +4,19 @@
 body { 
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
-	 }
+}
 
+.section-one {
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1553576576720-JYXNWSO1SIWXUN6771SK/ke17ZwdGBToddI8pDm48kGw4ezJaHbZwtIL1iDYveel7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmihaE5rlzFBImxTetd_yW5RNbSDrVbAorDUda_Uyof89sosfLg_WUPje9sbKfw52z/tonkotsu.jpg?format=2500w);
+	background-size: cover;
+}
+
+.logo {
+	padding-top: 160px;
+	padding-bottom: 120px;
+}
 main{
-	background-image: url(images/tonkotsu.jpeg);
+	;
 }
 h1, h2, h3, h4 {
 	font-family: Helvetica, sans-serif;
@@ -39,10 +48,10 @@ header {margin-bottom: 20px;}
 img { width: 100%; }
 
 a { 
-	color: rgb(255,0,127);
+	color: rgb(243,210,199);
 	text-decoration: none;
-	 }
-a:hover { color: rgb(243,210,199); }
+}
+a:hover { color: rgb(255,0,127); }
 
 .grid {
 	display: grid;
@@ -57,23 +66,31 @@ a:hover { color: rgb(243,210,199); }
 	padding: 20px;
 }
 
+header {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
 nav li {
 	display: inline-block;
- 	margin-right: 25px;
- 	font-family: bee, sans-serif;
+	font-family: bee, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	text-align: center;
-	display: flex;
-	vertical-align: baseline;
 	font-size: 60px;
 	padding: 20px;
 }
-nav ul {
-    display: flex;
-    justify-content: flex-center;
-	}
 
+nav ul {
+	
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(243,210,199);
+	padding: 20px;
+	text-decoration-color: rgb(255,0,127);
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -82,12 +99,18 @@ nav ul {
 	}
 
 	.grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 40px;
-	width: 70%;
-	margin: auto;
-}
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+		width: 70%;
+		margin: auto;
+	}
+
+	.section-one {
+		max-height: 75%;
+	}
+
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -95,13 +118,13 @@ nav ul {
 		background-color: salmon;
 	}
 
-		.grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
-	width: 70%;
-	margin: auto;
-}
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 40px;
+		width: 70%;
+		margin: auto;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -109,16 +132,11 @@ nav ul {
 		background-color: white;
 	}
 
-		.grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 40px;
-	width: 80%;
-	margin: auto;
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 40px;
+		width: 80%;
+		margin: auto;
+	}
 }
-}
-/*
-font-family: 'Mansalva', cursive;
-font-family: 'Dosis', sans-serif;
-font-family: 'Indie Flower', cursive;
-*/
