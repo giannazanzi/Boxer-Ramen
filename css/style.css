@@ -2,8 +2,11 @@
 
 
 body { 
-	font-family: Helvetica, sans-serif;
+	font-family: prestige-elite-std, monospace;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 16px;
+	line-height: 1.25;
 }
 
 .section-one {
@@ -11,35 +14,39 @@ body {
 	background-size: cover;
 }
 
+section-two {
+	align-items: center;
+}
+
 .logo {
 	padding-top: 160px;
 	padding-bottom: 120px;
 }
+
 main{
 	;
-}
-h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
 }
 
 h1 {
 	font-size: 48px;
+	font-family: bee, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 h2 {
-	font-size: 36px;
-}
-
-h3 {
-	font-size: 28px;
-}
-h4 {
-	font-size: 24px;
+	font-family: prestige-elite-std, monospace;
+	font-weight: 700;
+	font-style: normal;
 }
 
 blockquote {
 	margin: 20px 60px;
-	font-family: Helvetica, sans-serif;
+	font-family: prestige-elite-std, monospace;
+	font-weight: 700;
+	font-style: normal;
+	color: rgb(243,210,199);
+	text-align: center;
 }
 
 header {margin-bottom: 20px;}
@@ -51,18 +58,22 @@ a {
 	color: rgb(243,210,199);
 	text-decoration: none;
 }
-a:hover { color: rgb(255,0,127); }
+
+a:hover {
+	color: rgb(255,0,127);
+}
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 40px;
+	grid-template-columns: repeat(1fr 1fr);
 	width: 80%;
 	margin: auto;
+	align-content: center;
+	grid-auto-flow: dense;
 }
 
 .grid div {
-	background-color: #ccc;
+	background-color: rgb(113,202,204);
 	padding: 20px;
 }
 
@@ -79,10 +90,6 @@ nav li {
 	font-style: normal;
 	font-size: 60px;
 	padding: 20px;
-}
-
-nav ul {
-	
 }
 
 footer {
@@ -134,7 +141,7 @@ footer {
 
 	.grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-gap: 40px;
 		width: 80%;
 		margin: auto;
