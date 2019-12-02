@@ -9,13 +9,24 @@ body {
 	line-height: 1.25;
 }
 
+section {
+	height: 150vh;
+	width: 100vw;
+	position: sticky;
+	top: -1px;
+}
 .section-one {
 	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1553576576720-JYXNWSO1SIWXUN6771SK/ke17ZwdGBToddI8pDm48kGw4ezJaHbZwtIL1iDYveel7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmihaE5rlzFBImxTetd_yW5RNbSDrVbAorDUda_Uyof89sosfLg_WUPje9sbKfw52z/tonkotsu.jpg?format=2500w);
 	background-size: cover;
 }
 
-section-two {
+.section-two {
 	align-items: center;
+	background-color: white;
+}
+
+.section-tanuki {
+	background-color: white;
 }
 
 .logo {
@@ -101,50 +112,42 @@ footer {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: rgb(243,210,199);
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	background-color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: rgb(255,0,127);
-}
-
-div.container
-{
-    display: block;
-    text-align: center;
-}
-
-form
-{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+	background-color: rgb(255,0,127);
 }
 
 /* Add a background color and some padding around the form */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-width: 80%
+	border-radius: 5px;
+	background-color: rgb(243,210,199);
+	margin: auto;
+	width: 75%;
+	padding: 20px;
+}
+
+.section-four {
+	padding-bottom: 50px;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1551829808644-ISBR8ZUERQU6G8EQJ2SN/ke17ZwdGBToddI8pDm48kCJe1R7FlqZzBey2P6jvyER7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfWju33K62cneiiUnL5mjXDgo2s_gzBmusYV1Da0U3z1dpursGn9QPJQaEbWo72ubw/ramenblue.jpg?format=2500w);
 }
 
 @media only screen and (min-width: 768px) {
