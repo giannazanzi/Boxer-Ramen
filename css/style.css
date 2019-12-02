@@ -15,12 +15,12 @@ section {
 	position: sticky;
 	top: -1px;
 }
-.section-one {
+.section-logo {
 	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1553576576720-JYXNWSO1SIWXUN6771SK/ke17ZwdGBToddI8pDm48kGw4ezJaHbZwtIL1iDYveel7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmihaE5rlzFBImxTetd_yW5RNbSDrVbAorDUda_Uyof89sosfLg_WUPje9sbKfw52z/tonkotsu.jpg?format=2500w);
 	background-size: cover;
 }
 
-.section-two {
+.section-menu {
 	align-items: center;
 	background-color: white;
 }
@@ -141,13 +141,14 @@ input[type=submit]:hover {
 	border-radius: 5px;
 	background-color: rgb(243,210,199);
 	margin: auto;
-	width: 75%;
+	width: 50%;
 	padding: 20px;
 }
 
-.section-four {
+.section-contact {
 	padding-bottom: 50px;
-	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1551829808644-ISBR8ZUERQU6G8EQJ2SN/ke17ZwdGBToddI8pDm48kCJe1R7FlqZzBey2P6jvyER7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfWju33K62cneiiUnL5mjXDgo2s_gzBmusYV1Da0U3z1dpursGn9QPJQaEbWo72ubw/ramenblue.jpg?format=2500w);
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1552020979147-8MUD893JKZQILB8TJN62/ke17ZwdGBToddI8pDm48kEP3XILZbd6clkwwwPPDzGJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USJfBMlwhtiUUFKQ2Qtzx-UONIfB-9RFWha3Hf_VomFI5ck0MD3_q0rY3jFJjjoLbQ/23rd.jpg?format=2500w);
+	background-size: cover;
 }
 
 @media only screen and (min-width: 768px) {
