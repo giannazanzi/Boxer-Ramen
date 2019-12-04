@@ -26,10 +26,10 @@ section {
 }
 
 .section-locations {
-	background-size: cover;
-	background-color: white;
+/*	background-size: cover;
+*/	background-color: white;
 	display: grid;
-	grid-template-columns: repeat(1fr 1fr);
+	grid-template-columns: 1fr 1fr;
 	width: 80%;
 	margin: auto;
 	align-content: center;
@@ -37,8 +37,8 @@ section {
 }
 
 .alberta, .burnside, .downtown, .nw, .sellwood {
-	height: 100px;
-	column-width: 100px;
+	/*height: 100px;
+	column-width: 100px;*/
 }
 
 .logo {
@@ -208,5 +208,6 @@ input[type=submit]:hover {
 		grid-gap: 40px;
 		width: 80%;
 		margin: auto;
+		padding-top: 40px;
 	}
 }
