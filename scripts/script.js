@@ -46,6 +46,15 @@ var $button = $.backToTop({
     
 });
 
+$(".alberta").flip();
+
+$(".burnside").flip();
+
+$(".downtown").flip();
+
+$(".nw").flip();
+
+$(".sellwood").flip();
 
 // End of Your Code . Don't delete that line below!!
 });
