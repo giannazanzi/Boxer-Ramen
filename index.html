@@ -1,160 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Boxer Ramen</title>
-	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Boxer Ramen is a restaurant local to the Portland metro area that specializes in traditional ramen and sides with a twist!">
-	<link rel="shortcut icon" href="images/BoxerRamen_favicon.png"> 
-	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://use.typekit.net/yvi1lke.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link href="css/jquery-backToTop.min.css" rel="stylesheet" type="text/css">
-	<script src="scripts/jquery.flip.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
-	<script src="scripts/jquery-backToTop.js"></script>
-	<scripts src="scripts/script.js"></scripts>
-</head>
-<body>
-	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-	<section class="section-logo" id="section-logo">
-		<header>
-			<!-- header, h1, logo etc content -->
-			<nav class="navbar">
-				<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
-				<ul class="nav ul">
-					<li><a href="#section-menu">MENU</a></li>
-					<li><a href="#section-locations">LOCATIONS</a></li>
-					<li><a href="#section-about">ABOUT</a></li>
-					<li><a href="#section-contact">CONTACT</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<p>
-				<img src="images/boxerramensvg_animated.svg" class="logo">
-			</p>
-			<blockquote>Welcome to Boxer Ramen! Looking for some award-winning ramen or a cold glass of sake? Come on down to one of our five Portland locations!</blockquote>
-		</section>
-
-		<section class="section-locations">
-
-					<div id="alberta"> 
-						<div class="front"> 
-							<img src="images/br_alberta.jpg" class="alberta">
-						</div> 
-						<div class="back">
-							Back content
-						</div> 
-					</div>
-
-
-					<div id="burnside" class="burnside"> 
-						<div class="front"> 
-							<img src="images/br_burnside.jpg">
-						</div> 
-						<div class="back">
-							Back content
-						</div> 
-					</div>
-
-
-
-					<div id="downtown" class="downtown"> 
-						<div class="front"> 
-							<img src="images/br_downtown.jpg">
-						</div> 
-						<div class="back">
-							Back content
-						</div> 
-					</div>
-
-					<div id="nw"> 
-						<div class="front"> 
-							<img src="images/br_nw.jpg" class="nw">
-						</div> 
-						<div class="back">
-							Back content
-						</div> 
-					</div>
-
-					<div id="sellwood" class="sellwood"> 
-						<div class="front"> 
-							<img src="images/br_sellwood.jpg">
-						</div> 
-						<div class="back">
-							Back content
-						</div> 
-					</div>
-
-		</section>
-
-		<section class="section-menu" id="section-menu">
-			<!-- Main content here -->
-			<div class="grid">
-				<div>
-					<ul>
-						<h1>RAMEN</h1>
-						<li><h2>SHIITAKE SHOYU - $13</h2></li>
-						<li>shiitake mushroom dashi, shiitakes, soft-poached egg, cabbage + scallions.</li>
-						<li><h2>VEGGIE CURRY (v) - $13</h2></li>
-						<li>yellow curry coconut broth, broccoli rabe, mushroom, corn, scallions + mayu</li>
-						<li><h2>TONKOTSU SHIO - $14</h2></li>
-						<li>housemade pork broth, soft poached egg, pork belly, scallions + mayu</li>
-						<li><h2>SPICY RED MISO - $14</h2></li>
-						<li>gochujang and miso spiked pork broth, soft poached egg, pork belly + mayu</li>
-						<li><h2>ADD TO ANY RAMEN:</h2></li>
-						<li>extra egg - $1</li>
-						<li>extra vegetable - $1</li>
-						<li>extra pork belly - $2</li>
-						<li>extra noodle - $2</li>
-						<li>extra smoked pork shoulder - $3</li>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Boxer Ramen</title>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Boxer Ramen is a restaurant local to the Portland metro area that specializes in traditional ramen and sides with a twist!">
+		<link rel="shortcut icon" href="images/BoxerRamen_favicon.png"> 
+		<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://use.typekit.net/yvi1lke.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link href="css/jquery-backToTop.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
+		<section class="section-logo" id="section-logo">
+			<header>
+				<!-- header, h1, logo etc content -->
+				<nav class="navbar">
+					<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
+					<ul class="nav ul">
+						<li><a href="#section-menu">MENU</a></li>
+						<li><a href="#section-locations">LOCATIONS</a></li>
+						<li><a href="#section-about">ABOUT</a></li>
+						<li><a href="#section-contact">CONTACT</a></li>
 					</ul>
-				</div>
-				<div>
-					<ul>
-						<h1>BEER</h1>
-						<li>We have lots of beer, usually on draft (except downtown)
-						It ranges in price based on size and brand.</li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<h1>SIDES</h1>
-						<li><h2>WAKAME SALAD - $4</h2></li>
-						<li>light, refreshing vegetarian seaweed salad.</li>
-						<li><h2>FRIED POTSTICKERS - $5</h2></li>
-						<li>pork + veggie gyoza, potsticker sauce.</li>
-						<li><h2>SMOKED PORK SLIDERS (2) - $6</h2></li>
-						<li>fermented black bean sauce, slaw, spicy mayo.</li>
-						<li><h2>GREENS + SESAME  - $7</h2></li>
-						<li>swiss chard, pickled cabbage, walnuts, shiitakes.</li>
-						<li><h2>OKONOMIYAKI TOTS - $8</h2></li>
-						<li>tonkatsu sauce, togarashi, creamy-spicy sauce, bonito.</li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<h1>SAKE</h1>
-						<li><h2>HAKUSHIKA - $6</h2></li>
-						<li>dry, full-bodied.</li>
-						<li><h2>TOZAI - $7</h2></li>
-						<li>medium-dry with round, mellow finish.</li>
-						<li><h2>OZEKI TARUZAKE - $8</h2></li>
-						<li>light-bodied, aged in cedar casks.</li>
-						<li><h2>JOTO NIGORI (unfiltered) - $9</h2></li>
-						<li>off-dry, creamy, delicious</li>
-					</ul>
-				</div>
+				</nav>
+			</header>
+			<main>
+				<p>
+					<img src="images/boxerramensvg_animated.svg" class="logo">
+				</p>
+				<blockquote>Welcome to Boxer Ramen! Looking for some award-winning ramen or a cold glass of sake? We've got you covered at any one of our five Portland locations!</blockquote>
 			</section>
+
+			<section class="section-menu" id="section-menu">
+				<img src="images/des341_p2_gzanzi_comps2.jpg">
+			</section>
+
+
+			<section class="section-locations">
+
+				<div id="alberta"> 
+					<div class="front"> 
+						<img src="images/br_alberta.jpg" class="alberta">
+					</div> 
+					<div class="back">
+						Back content
+					</div> 
+				</div>
+
+
+				<div id="burnside" class="burnside"> 
+					<div class="front"> 
+						<img src="images/br_burnside.jpg">
+					</div> 
+					<div class="back">
+						Back content
+					</div> 
+				</div>
+
+
+
+				<div id="downtown" class="downtown"> 
+					<div class="front"> 
+						<img src="images/br_downtown.jpg">
+					</div> 
+					<div class="back">
+						Back content
+					</div> 
+				</div>
+
+				<div id="nw"> 
+					<div class="front"> 
+						<img src="images/br_nw.jpg" class="nw">
+					</div> 
+					<div class="back">
+						Back content
+					</div> 
+				</div>
+
+				<div id="sellwood" class="sellwood"> 
+					<div class="front"> 
+						<img src="images/br_sellwood.jpg">
+					</div> 
+					<div class="back">
+						Back content
+					</div> 
+				</div>
+
+			</section>
+
 			<section class="section-about" id="section-about">
-
-
-				
+				<img src="images/des341_p2_gzanzi_comps4.jpg">
 			</section>
+
 			<section class="section-contact" id="section-contact">
 				<h1>CONTACT</h1>
 				<blockquote>If you have any questions or concerns, please don't hesitate to drop us a line - we'll be in touch as soon as possible!</blockquote>
@@ -180,8 +121,28 @@
 				&copy; Boxer Ramen 2019
 			</footer>
 		</main>
-		
+
 		<!-- link for jquery -->
-		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+		<script src="scripts/jquery.flip.js"></script>
+		<scripts src="scripts/script.js"></scripts>
+		<script>
+			var $button = $.backToTop({theme: 'fawesome'});
+		</script>
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-36251023-1']);
+			_gaq.push(['_setDomainName', 'jqueryscript.net']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
 	</body>
 	</html>
