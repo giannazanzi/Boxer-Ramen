@@ -26,10 +26,10 @@ section {
 }
 
 .section-locations {
-/*	background-size: cover;
-*/	background-color: white;
+	background-color: white;
+	background-size: cover;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	width: 80%;
 	margin: auto;
 	align-content: center;
@@ -55,6 +55,10 @@ h1 {
 	font-family: bee, sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	color: rgb(243,210,199);
+	padding-left: 25%;
+	padding-top: 50px;
+
 }
 
 h2 {
@@ -120,6 +124,7 @@ footer {
 	background-color: rgb(243,210,199);
 	padding: 20px;
 	text-decoration-color: rgb(255,0,127);
+	position: fixed;
 }
 
 /* Style inputs with type="text", select elements and textareas */
