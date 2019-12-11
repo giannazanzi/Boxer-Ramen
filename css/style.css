@@ -22,12 +22,12 @@ section {
 
 .section-menu {
 	background-image: url(https://pbs.twimg.com/media/ELgsq6cU4AkjYEC?format=jpg&name=4096x4096);
-	background-size: cover;
+	background-size: 100%;
 }
 
 .section-about {
 	background-image: url(https://pbs.twimg.com/media/ELgsq6cU4AMDIl-?format=jpg&name=4096x4096);
-	background-size: cover;
+	background-size: 100%;
 }
 
 .section-locations {
